@@ -1,0 +1,61 @@
+/* font */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /*   background: var(--blue); */
+  --blue: #143f6b !important;
+  --gray: #707070 !important;
+  --pink: #ff5c58 !important;
+}
+
+/* Nav Bar */
+nav,
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand,
+h1 {
+  font-weight: 900;
+  color: var(--blue);
+}
+
+a.nav-link {
+  color: var(--gray);
+}
+
+a.nav-link:hover {
+  color: var(--pink);
+}
+
+/* Title */
+font {
+  color: var(--pink);
+}
+
+h1.heading-title {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.heading {
+  line-height: 3;
+}
+
+.heading-text {
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+}
+
+img.heading-img {
+  border-radius: 50%;
+  width: 80%;
+  float: right;
+}
+
+/* img box to the right */
