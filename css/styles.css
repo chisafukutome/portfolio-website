@@ -13,14 +13,28 @@ font-family: 'Mulish', sans-serif; */
   --pink: #ff5c58 !important;
 }
 
+/* section padding */
+.section-container {
+  padding: 3% 0 2% 0;
+}
+
+/* section titles */
+h2.section-title {
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+}
+
 /* Nav Bar */
 nav,
-h1 {
+h1,
+h2 {
   font-family: "Montserrat", sans-serif;
 }
 
 .navbar-brand,
-h1 {
+h1,
+h2 {
   font-weight: 900;
   color: var(--blue);
 }
@@ -52,6 +66,50 @@ h1.heading-title {
   color: var(--gray);
 }
 
+/* Buttons */
+button.download-resume.btn,
+button.view-github.btn {
+  background-color: var(--pink);
+  border-radius: 15px;
+  padding: 0.8em;
+  color: white;
+}
+
+button.download-resume.btn {
+  margin-right: 5%;
+}
+
+span.material-icons {
+  vertical-align: middle;
+}
+
+button.learn-more.btn {
+  border: solid 3px var(--pink);
+  border-radius: 15px;
+  color: var(--pink);
+  padding: 0.8em;
+}
+
+button.learn-more.btn:hover,
+button.download-resume.btn:hover {
+  box-shadow: 5px 5px 20px var(--pink);
+}
+
+/* contact icons */
+button.icon-heading {
+  margin: 5% 5% 0 0;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+button.icon-heading:hover {
+  color: white;
+  box-shadow: 5px 5px 20px var(--blue);
+}
+
+/* image */
 img.heading-img {
   border-radius: 50%;
   width: 80%;
@@ -59,3 +117,59 @@ img.heading-img {
 }
 
 /* img box to the right */
+div.col-lg-5 {
+  padding: 0;
+}
+
+/* Skills Section */
+.skills-container {
+  background-color: #f2eeee;
+}
+
+div.skill-item {
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+  padding: 3%;
+}
+
+h5.skill-name {
+  font-weight: 900;
+  color: #343a40;
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.skill-icons {
+  font-size: 1.5rem;
+}
+
+/* Projects */
+.projects-buttons {
+  padding: 3%;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+button.icon-scroll {
+  margin: 5% 5% 0 0;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.project-carousel {
+  margin-top: 5%;
+}
+
+.carousel-item div.card-container {
+  padding: 1.5%;
+  border: none;
+}
