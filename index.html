@@ -97,16 +97,16 @@
             </div>
             <!-- Icons -->
             <div class="heading-icons">
-              <button class="btn icon-heading" type="button">
+              <button class="btn icon-circle" type="button">
                 <ion-icon name="logo-github"></ion-icon>
               </button>
-              <button class="btn icon-heading" type="button">
+              <button class="btn icon-circle" type="button">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </button>
-              <button class="btn icon-heading" type="button">
+              <button class="btn icon-circle" type="button">
                 <ion-icon name="mail"></ion-icon>
               </button>
-              <button class="btn icon-heading" type="button">
+              <button class="btn icon-circle" type="button">
                 <ion-icon name="logo-youtube"></ion-icon>
               </button>
             </div>
@@ -179,32 +179,40 @@
 
     <!-- Projects -->
     <section id="projects">
-      <div class="container section-container">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-buttons row">
-          <div class="col-lg-4"></div>
-          <button class="view-github btn col-lg-4" type="button">
-            View My GitHub
-            <ion-icon name="logo-github"></ion-icon>
-          </button>
-          <div class="scroll-buttons col-lg-4">
-            <button
-              class="btn icon-scroll carousel-control-prev"
-              type="button"
-              data-target="#carouselExampleInterval"
-              data-slide="prev"
-            >
-              <ion-icon name="arrow-round-back"></ion-icon>
+      <div class="projects-container">
+        <div class="container section-container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-buttons row">
+            <div class="col-lg-5"></div>
+            <button class="view-github btn col-lg-2" type="button">
+              View My GitHub
+              <ion-icon name="logo-github"></ion-icon>
             </button>
-            <button
-              class="btn icon-scroll carousel-control-next"
-              type="button"
-              data-target="#carouselExampleInterval"
-              data-slide="next"
-            >
-              <ion-icon name="arrow-round-forward"></ion-icon>
-            </button>
+            <div class="col-lg-1"></div>
+            <!-- Scroll Buttons -->
+            <div class="col-lg-4">
+              <div class="scroll-buttons">
+                <button
+                  class="btn icon-scroll carousel-control-prev"
+                  type="button"
+                  data-target="#carouselExampleInterval"
+                  data-slide="prev"
+                >
+                  <ion-icon name="arrow-round-back"></ion-icon>
+                </button>
+                <button
+                  class="btn icon-scroll carousel-control-next"
+                  type="button"
+                  data-target="#carouselExampleInterval"
+                  data-slide="next"
+                >
+                  <ion-icon name="arrow-round-forward"></ion-icon>
+                </button>
+              </div>
+            </div>
           </div>
+          <!-- End Scroll Buttons -->
+
           <!-- Carousel -->
           <div
             id="carouselExampleInterval"
@@ -220,7 +228,7 @@
                     <div class="project-card card">
                       <img src="/assets/nigiripic.jpg" class="card-img-top" />
                       <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
+                        <h5 class="card-title">Project Name1</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and
                           make up the bulk of the card's content.
@@ -228,7 +236,19 @@
                         <hr />
                         <p>Time: 4/30/22 - 5/30/22</p>
                         <p>Languages: Python, HTML, CSS</p>
-                        <a href="#" class="btn btn-primary">GitHub</a>
+                        <!-- Project icons -->
+                        <div class="project-icons">
+                          <button class="btn icon-circle" type="button">
+                            <ion-icon name="logo-github"></ion-icon>
+                          </button>
+                          <button class="btn icon-circle" type="button">
+                            <ion-icon name="logo-github"></ion-icon>
+                          </button>
+                          <button class="btn icon-circle" type="button">
+                            <ion-icon name="logo-github"></ion-icon>
+                          </button>
+                        </div>
+                        <!-- Project Icons End-->
                       </div>
                     </div>
                   </div>
@@ -269,16 +289,16 @@
                   <!-- card end -->
                 </div>
               </div>
-
-              <!-- Carousel Item -->
-              <div class="carousel-item active" data-interval="10000">
+              <!-- Carousel Item End -->
+              <!-- COPY START: Carousel Item -->
+              <div class="carousel-item" data-interval="2000">
                 <div class="row">
                   <!-- card -->
                   <div class="card-container col-lg-4">
                     <div class="project-card card">
                       <img src="/assets/nigiripic.jpg" class="card-img-top" />
                       <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
+                        <h5 class="card-title">Project Name1</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and
                           make up the bulk of the card's content.
@@ -327,39 +347,36 @@
                   <!-- card end -->
                 </div>
               </div>
-              <!-- End Carousel Item -->
+              <!-- COPY END: Carousel Item End -->
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-target="#carouselExampleInterval"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-target="#carouselExampleInterval"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </button>
           </div>
+          <!-- Carousel End -->
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <section id="footer"></section>
+    <section id="footer">
+      <div class="footer-container">
+        <div class="container">
+          <div class="footer-icons">
+            <button class="btn icon-circle" type="button">
+              <ion-icon name="logo-github"></ion-icon>
+            </button>
+            <button class="btn icon-circle" type="button">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </button>
+            <button class="btn icon-circle" type="button">
+              <ion-icon name="mail"></ion-icon>
+            </button>
+            <button class="btn icon-circle" type="button">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </button>
+          </div>
+          <p>Made with ❤️ using Bootstrap</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap JS -->
     <script

@@ -25,6 +25,20 @@ h2.section-title {
   text-align: center;
 }
 
+/*Circle Icons / contact icons */
+button.icon-circle {
+  margin: 5% 5% 0 0;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+button.icon-circle:hover {
+  color: white;
+  box-shadow: 5px 5px 20px var(--blue);
+}
+
 /* Nav Bar */
 nav,
 h1,
@@ -91,22 +105,9 @@ button.learn-more.btn {
 }
 
 button.learn-more.btn:hover,
-button.download-resume.btn:hover {
+button.download-resume.btn:hover,
+button.view-github.btn:hover {
   box-shadow: 5px 5px 20px var(--pink);
-}
-
-/* contact icons */
-button.icon-heading {
-  margin: 5% 5% 0 0;
-  background-color: var(--blue);
-  color: white;
-  border-radius: 50%;
-  padding-top: 10px;
-}
-
-button.icon-heading:hover {
-  color: white;
-  box-shadow: 5px 5px 20px var(--blue);
 }
 
 /* image */
@@ -122,7 +123,8 @@ div.col-lg-5 {
 }
 
 /* Skills Section */
-.skills-container {
+.skills-container,
+.footer-container {
   background-color: #f2eeee;
 }
 
@@ -133,8 +135,9 @@ div.skill-item {
   padding: 3%;
 }
 
-h5.skill-name {
-  font-weight: 900;
+h5.skill-name,
+h5.card-title {
+  font-weight: 600;
   color: #343a40;
 }
 
@@ -147,24 +150,30 @@ div.skill-icons {
   font-size: 1.5rem;
 }
 
-/* Projects */
+/* Projects Section*/
+.projects-container {
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+}
+/* Buttons */
 .projects-buttons {
-  padding: 3%;
+  padding-top: 3%;
 }
-
-.scroll-buttons {
-  display: flex;
-  justify-content: end;
-}
-
 button.icon-scroll {
-  margin: 5% 5% 0 0;
   background-color: var(--blue);
-  color: white;
+  opacity: 1;
   border-radius: 50%;
-  padding-top: 10px;
 }
 
+button.btn.icon-scroll.carousel-control-prev {
+  left: 50%;
+  background-color: white;
+  color: var(--blue);
+  border: solid 3px var(--blue);
+}
+
+/* Project Carousel */
 .project-carousel {
   margin-top: 5%;
 }
@@ -172,4 +181,33 @@ button.icon-scroll {
 .carousel-item div.card-container {
   padding: 1.5%;
   border: none;
+}
+
+/* Icon Styling */
+.project-icons .icon-circle {
+  background-color: white;
+  color: var(--blue);
+  border: solid 3px var(--blue);
+}
+
+.project-icons .icon-circle:hover,
+button.btn.icon-scroll.carousel-control-prev:hover,
+button.btn.icon-scroll.carousel-control-next:hover {
+  border: none;
+  color: white;
+  background-color: var(--blue);
+  box-shadow: 5px 5px 20px var(--blue);
+}
+
+/* Footer */
+.footer-container {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+  padding: 3% 0 1% 0;
+}
+
+.footer-icons .icon-circle {
+  margin: 0 2% 2% 0;
 }
