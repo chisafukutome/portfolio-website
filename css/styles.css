@@ -210,4 +210,51 @@ button.btn.icon-scroll.carousel-control-next:hover {
 
 .footer-icons .icon-circle {
   margin: 0 2% 2% 0;
+  background-color: var(--pink);
+  color: white;
 }
+
+.footer-icons .icon-circle:hover {
+  box-shadow: 5px 5px 20px var(--pink);
+}
+
+/* Responsive */
+/* Medium -md Bootstrap */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  img.heading-img {
+    width: 40%;
+    float: none;
+    margin-top: 5%;
+  }
+
+  button.icon-scroll {
+    display: none;
+  }
+}
+
+/* Small -sm Bootstrap */
+@media (max-width: 767px) {
+  #title {
+    text-align: center;
+  }
+
+  img.heading-img {
+    width: 40%;
+    float: none;
+    margin-top: 5%;
+  }
+
+  button.icon-scroll {
+    display: none;
+  }
+
+  button.learn-more.btn {
+    margin-top: 5%;
+  }
+}
+
+/* TODO: Disable the interval change the screen */
