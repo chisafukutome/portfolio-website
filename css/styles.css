@@ -132,7 +132,7 @@ div.skill-item {
   line-height: 1.5;
   font-family: "Mulish", sans-serif;
   color: var(--gray);
-  padding: 3%;
+  padding: 2%;
 }
 
 h5.skill-name,
@@ -251,12 +251,4 @@ button.btn.icon-scroll.carousel-control-next:hover {
   button.icon-scroll {
     display: none;
   }
-
-  button.learn-more.btn {
-    margin-top: 5%;
-  }
 }
-
-/* TODO: Disable the interval change the screen */
-
-/* TODO: Fix the position of resume button when smaller screen.  */
