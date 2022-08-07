@@ -37,47 +37,48 @@
     ></script>
   </head>
   <body>
-    <section id="title">
-      <!-- Nav Bar -->
-      <nav class="sticky-top navbar navbar-expand-lg bg-white">
-        <div class="container">
-          <a class="navbar-brand" href="#title">CHISA FUKUTOME</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="material-icons"> menu </span>
-          </button>
+     <!-- Nav Bar -->
+     <nav class="sticky-top navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#title">CHISA FUKUTOME</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="material-icons"> menu </span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >HOME <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">SKILLS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">PROJECTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">CONTACTS</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">CONTACTS</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
+    <section id="title">
+     
       <!-- Title -->
       <div class="container section-container">
         <div class="row heading section-divisor">
@@ -96,7 +97,7 @@
               <button class="download-resume btn" type="button">
                 View My Resume (.pdf)
               </button>
-              <button class="learn-more btn" type="button">
+              <button class="learn-more btn" type="button" onclick="window.location.href='https://www.linkedin.com/in/chisafukutome/';">
                 Learn More About Me >>
               </button>
             </div>
@@ -206,7 +207,7 @@
               <div class="skill-title">
                 <h5 class="skill-name">API</h5>
                 <div class="skill-icons">
-                  <ion-icon name="logo-python" class="skill-icon"></ion-icon>
+                  <i class="fa-solid fa-gear skill-icon"></i>
                   <!-- For spacing purpose -->
                   <ion-icon name="logo-java" class="skill-icon"></ion-icon>
                 </div>
@@ -372,26 +373,25 @@
                   <!-- card -->
                   <div class="card-container col-lg-4 col-md-6">
                     <div class="project-card card">
-                      <img src="/assets/nigiripic.jpg" class="card-img-top" />
+                      <img src="/assets/CaffeineCulator_Icon.png" class="card-img-top" />
                       <div class="card-body">
-                        <h5 class="card-title">Project Name1</h5>
+                        <h5 class="card-title">CaffeineCulator</h5>
                         <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          Swamp Hacks 2022 project. This web application calculates the amount of caffeine based on user input (either barcode or text).
                         </p>
                         <hr />
-                        <p>Time: 4/30/22 - 5/30/22</p>
-                        <p>Languages: Python, HTML, CSS</p>
+                        <p>Time: 1/28/22 - 1/30/22</p>
+                        <p>Languages: Python (Flask), HTML, CSS, API (Nutritionix)</p>
                         <!-- Project icons -->
                         <div class="project-icons">
-                          <button class="btn icon-circle" type="button">
+                          <button class="btn icon-circle" type="button" onclick="window.location.href='https://github.com/chisafukutome/caffeine-detector-project';">
                             <ion-icon name="logo-github"></ion-icon>
                           </button>
-                          <button class="btn icon-circle" type="button">
-                            <ion-icon name="logo-github"></ion-icon>
+                          <button class="btn icon-circle" type="button" onclick="window.location.href='https://devpost.com/software/caffeineculator';">
+                            <i class="fa-brands fa-dev"></i>
                           </button>
-                          <button class="btn icon-circle" type="button">
-                            <ion-icon name="logo-github"></ion-icon>
+                          <button class="btn icon-circle" type="button" onclick="window.location.href='https://caffeineculator.pythonanywhere.com/';">
+                            <i class="fa-solid fa-laptop"></i>
                           </button>
                         </div>
                         <!-- Project Icons End-->
@@ -401,17 +401,25 @@
                   <!-- card -->
                   <div class="card-container col-lg-4 col-md-6">
                     <div class="project-card card">
-                      <img src="/assets/nigiripic.jpg" class="card-img-top" />
+                      <img src="/assets/to_watch.jpg" class="card-img-top" />
                       <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
+                        <h5 class="card-title">To-Watch</h5>
                         <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          Personal web application project, which can store list of movies users want to watch. In other words, this web application is a to-do list, but with movies to watch intead of things to do. 
                         </p>
                         <hr />
-                        <p>Time: 4/30/22 - 5/30/22</p>
-                        <p>Languages: Python, HTML, CSS</p>
-                        <a href="#" class="btn btn-primary">GitHub</a>
+                        <p>Time: 6/23/22 - </p>
+                        <p> Python (Flask, SQLAlchemy), HTML, CSS (Bootstrap), API (TMDB)</p>
+                         <!-- Project icons -->
+                         <div class="project-icons">
+                          <button class="btn icon-circle" type="button" onclick="window.location.href='https://github.com/chisafukutome/to-watch-project">
+                            <ion-icon name="logo-github"></ion-icon>
+                          </button>
+                          <button class="btn icon-circle" type="button" onclick="window.location.href='https://to-watch-app.herokuapp.com/">
+                            <i class="fa-solid fa-laptop"></i>
+                          </button>
+                        </div>
+                        <!-- Project Icons End-->
                       </div>
                     </div>
                   </div>
@@ -437,10 +445,10 @@
               </div>
               <!-- Carousel Item End -->
               <!-- COPY START: Carousel Item -->
-              <div class="carousel-item">
-                <div class="row">
+              <!-- <div class="carousel-item">
+                <div class="row"> -->
                   <!-- card -->
-                  <div class="card-container col-lg-4 col-md-6">
+                  <!-- <div class="card-container col-lg-4 col-md-6">
                     <div class="project-card card">
                       <img src="/assets/nigiripic.jpg" class="card-img-top" />
                       <div class="card-body">
@@ -455,9 +463,26 @@
                         <a href="#" class="btn btn-primary">GitHub</a>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- card -->
-                  <div class="card-container col-lg-4 col-md-6">
+                  <!-- <div class="card-container col-lg-4 col-md-6">
+                    <div class="project-card card">
+                      <img src="/assets/to_watch.jpg" class="card-img-top" />
+                      <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <hr />
+                        <p>Time: 4/30/22 - 5/30/22</p>
+                        <p>Languages: Python, HTML, CSS</p>
+                        <a href="#" class="btn btn-primary">GitHub</a>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- card -->
+                  <!-- <div class="card-container col-lg-4 col-md-6">
                     <div class="project-card card">
                       <img src="/assets/nigiripic.jpg" class="card-img-top" />
                       <div class="card-body">
@@ -472,27 +497,10 @@
                         <a href="#" class="btn btn-primary">GitHub</a>
                       </div>
                     </div>
-                  </div>
-                  <!-- card -->
-                  <div class="card-container col-lg-4 col-md-6">
-                    <div class="project-card card">
-                      <img src="/assets/nigiripic.jpg" class="card-img-top" />
-                      <div class="card-body">
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </p>
-                        <hr />
-                        <p>Time: 4/30/22 - 5/30/22</p>
-                        <p>Languages: Python, HTML, CSS</p>
-                        <a href="#" class="btn btn-primary">GitHub</a>
-                      </div>
-                    </div>
-                  </div>
+                  </div> -->
                   <!-- card end -->
-                </div>
-              </div>
+                <!-- </div>
+              </div> -->
               <!-- COPY END: Carousel Item End -->
             </div>
           </div>
