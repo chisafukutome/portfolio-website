@@ -1,0 +1,254 @@
+/* font */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /*   background: var(--blue); */
+  --blue: #143f6b !important;
+  --gray: #707070 !important;
+  --pink: #ff5c58 !important;
+}
+
+/* section padding */
+.section-container {
+  padding: 3% 0 2% 0;
+}
+
+/* section titles */
+h2.section-title {
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*Circle Icons / contact icons */
+button.icon-circle {
+  margin: 5% 5% 0 0;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+button.icon-circle:hover {
+  color: white;
+  box-shadow: 5px 5px 20px var(--blue);
+}
+
+/* Nav Bar */
+nav,
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand,
+h1,
+h2 {
+  font-weight: 900;
+  color: var(--blue);
+}
+
+a.nav-link {
+  color: var(--gray);
+}
+
+a.nav-link:hover {
+  color: var(--pink);
+}
+
+/* Title */
+font {
+  color: var(--pink);
+}
+
+h1.heading-title {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.heading {
+  line-height: 3;
+}
+
+.heading-text {
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+}
+
+/* Buttons */
+button.download-resume.btn,
+button.view-github.btn {
+  background-color: var(--pink);
+  border-radius: 15px;
+  padding: 0.8em;
+  color: white;
+}
+
+button.download-resume.btn {
+  margin-right: 5%;
+}
+
+span.material-icons {
+  vertical-align: middle;
+}
+
+button.learn-more.btn {
+  border: solid 3px var(--pink);
+  border-radius: 15px;
+  color: var(--pink);
+  padding: 0.8em;
+}
+
+button.learn-more.btn:hover,
+button.download-resume.btn:hover,
+button.view-github.btn:hover {
+  box-shadow: 5px 5px 20px var(--pink);
+}
+
+/* image */
+img.heading-img {
+  border-radius: 50%;
+  width: 80%;
+  float: right;
+}
+
+/* img box to the right */
+div.col-lg-5 {
+  padding: 0;
+}
+
+/* Skills Section */
+.skills-container,
+.footer-container {
+  background-color: #f2eeee;
+}
+
+div.skill-item {
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+  padding: 2%;
+}
+
+h5.skill-name,
+h5.card-title {
+  font-weight: 600;
+  color: #343a40;
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.skill-icons {
+  font-size: 1.5rem;
+}
+
+/* Projects Section*/
+.projects-container {
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+}
+/* Buttons */
+.projects-buttons {
+  padding-top: 3%;
+}
+button.icon-scroll {
+  background-color: var(--blue);
+  opacity: 1;
+  border-radius: 50%;
+}
+
+button.btn.icon-scroll.carousel-control-prev {
+  left: 50%;
+  background-color: white;
+  color: var(--blue);
+  border: solid 3px var(--blue);
+}
+
+/* Project Carousel */
+.project-carousel {
+  margin-top: 5%;
+}
+
+.carousel-item div.card-container {
+  padding: 1.5%;
+  border: none;
+}
+
+/* Icon Styling */
+.project-icons .icon-circle {
+  background-color: white;
+  color: var(--blue);
+  border: solid 3px var(--blue);
+}
+
+.project-icons .icon-circle:hover,
+button.btn.icon-scroll.carousel-control-prev:hover,
+button.btn.icon-scroll.carousel-control-next:hover {
+  border: none;
+  color: white;
+  background-color: var(--blue);
+  box-shadow: 5px 5px 20px var(--blue);
+}
+
+/* Footer */
+.footer-container {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  color: var(--gray);
+  padding: 3% 0 1% 0;
+}
+
+.footer-icons .icon-circle {
+  margin: 0 2% 2% 0;
+  background-color: var(--pink);
+  color: white;
+}
+
+.footer-icons .icon-circle:hover {
+  box-shadow: 5px 5px 20px var(--pink);
+}
+
+/* Responsive */
+/* Medium -md Bootstrap */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  img.heading-img {
+    width: 40%;
+    float: none;
+    margin-top: 5%;
+  }
+
+  button.icon-scroll {
+    display: none;
+  }
+}
+
+/* Small -sm Bootstrap */
+@media (max-width: 767px) {
+  #title {
+    text-align: center;
+  }
+
+  img.heading-img {
+    width: 40%;
+    float: none;
+    margin-top: 5%;
+  }
+
+  button.icon-scroll {
+    display: none;
+  }
+}
