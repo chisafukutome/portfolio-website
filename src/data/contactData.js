@@ -12,8 +12,12 @@ export default [
     iconLink: "https://www.linkedin.com/in/chisafukutome/",
   },
   //Email
-  { id: 3, iconName: "mail", iconink: "mailto: chisafukutome@gmail.com" },
+  { id: 3, iconName: "mail", iconink: "mailto:chisafukutome@gmail.com" },
   //YouTube
-  //TODO: Create playlist of my projects, then add link to it.
-  { id: 4, iconName: "logo-youtube", iconLink: "" },
+  {
+    id: 4,
+    iconName: "logo-youtube",
+    iconLink:
+      "https://www.youtube.com/playlist?list=PL7cHJlyktPh7B2iFo-36fn3DE4vZsL18d",
+  },
 ];

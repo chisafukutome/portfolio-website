@@ -18,14 +18,18 @@ export default function Title() {
             <h1 className="heading-title">Chisa Fukutome</h1>
             <i>A Software Development Student From Japan</i>
             <p className="heading-description">
-              I'm a<font>Computing Technology and Software Development</font>
+              I'm a <font>Computing Technology and Software Development</font>
               student at Valencia College. I'm from Japan, and I help students
               with mathematics. I mainly use <font>Python and Java</font>, and I
               love to participate in Hackathon.
             </p>
             {/* Buttons */}
             <div className="heading-buttons">
-              <button className="download-resume btn" type="button">
+              <button
+                className="download-resume btn"
+                type="button"
+                //TODO: search how to open pdf file when button is clicked.
+              >
                 View My Resume (.pdf)
               </button>
               <button
