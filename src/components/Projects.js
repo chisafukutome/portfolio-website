@@ -14,7 +14,8 @@ function Projects() {
       <div class="projects-container">
         <div class="container section-container">
           <h2 class="section-title">Projects</h2>
-          <ProjectButtons />
+          {/*<ProjectButtons />*/}
+
           {/* Carousel */}
           <div
             id="carouselExampleInterval"

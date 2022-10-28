@@ -2,6 +2,25 @@ import React from "react";
 
 // Project Item component
 export default function ProjectItem(props) {
+  //map logo component
+  const projectIcons = props.item.icon.map((icon) => {
+    return (
+      <button
+        class="btn icon-circle"
+        type="button"
+        onClick={() => {
+          window.open(icon.link, "_blank");
+        }}
+      >
+        {icon.logo.includes("fa-") ? (
+          <i class={icon.logo}></i>
+        ) : (
+          <ion-icon name={icon.logo}></ion-icon>
+        )}
+      </button>
+    );
+  });
+
   return (
     <div class="card-container col-lg-4 col-md-6">
       <div class="project-card card">
@@ -18,30 +37,8 @@ export default function ProjectItem(props) {
           </p>
           <p>Lauguages: {`${props.item.language}`}</p>
           {/* Project icons */}
-          {/*TODO: make its own component for button*/}
-          <div class="project-icons">
-            <button
-              class="btn icon-circle"
-              type="button"
-              onclick="window.location.href='https://github.com/chisafukutome/caffeine-detector-project';"
-            >
-              <ion-icon name="logo-github"></ion-icon>
-            </button>
-            <button
-              class="btn icon-circle"
-              type="button"
-              onclick="window.location.href='https://devpost.com/software/caffeineculator';"
-            >
-              <i class="fa-brands fa-dev"></i>
-            </button>
-            <button
-              class="btn icon-circle"
-              type="button"
-              onclick="window.location.href='https://caffeineculator.pythonanywhere.com/';"
-            >
-              <i class="fa-solid fa-laptop"></i>
-            </button>
-          </div>
+
+          <div class="project-icons">{projectIcons}</div>
           {/* Project Icons End*/}
         </div>
       </div>
