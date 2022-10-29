@@ -5,7 +5,7 @@ export default [
     skill: "Python",
     logo: ["logo-python"],
     description:
-      "I've developed web application using <font>Flask & API for Hackathon project</font>. I obtained strong Python skill through Udemy course, '100 Days of Code: The Complete Python Pro Bootcamp for 2022'",
+      "I've developed web application using Flask & API for Hackathon project. I obtained strong Python skill through Udemy course, '100 Days of Code: The Complete Python Pro Bootcamp for 2022'",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export default [
     skill: "HTML & CSS",
     logo: ["logo-html5", "logo-css3"],
     description:
-      "I've developed several responsive websites & applications using HTML and CSS. I can also use <font>BootStrap</font> framework. I've taken COP 2822C and learned HTML, CSS, web hosting.",
+      "I've developed several responsive websites & applications using HTML and CSS. I can also use BootStrap framework. I've taken COP 2822C and learned HTML, CSS, web hosting.",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export default [
     skill: "API",
     logo: ["fa-solid fa-gear"], //TODO: Change to i logo
     description:
-      " I can use different APIs through Python. <font>I've developed caffeine calculator web application using nutrition API for Swamp Hacks. </font>I've also developed projects using different APIs includingweather, movie, and satelite APIs.",
+      " I can use different APIs through Python. I've developed caffeine calculator web application using nutrition API for Swamp Hacks. I've also developed projects using different APIs includingweather, movie, and satelite APIs.",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export default [
     skill: "SQL",
     logo: ["fa-solid fa-database"], //TODO: Change to i logo
     description:
-      "I can write <font>SQL</font> queries and develop <font>Entity Relationship Diagram</font>. I've taken CEN 4333C course. I develop database using <font>SQLAlchemy</font> when I develop web application on Python Flask as well.",
+      "I can write SQL queries and develop Entity Relationship Diagram. I've taken CEN 4333C course. I develop database using SQLAlchemy when I develop web application on Python Flask as well.",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export default [
     skill: "Git & GitHub",
     logo: ["fa-brands fa-git-alt", "fa-brands fa-github"], //TODO: Change to i logo
     description:
-      "I've used GitHub for previous hackathons, my personal projects, and course projects. I cannot only use GitHub to track my work, but also <font>collaborate with other people</font>. I use <font>command line</font> for GitHub operations.",
+      "I've used GitHub for previous hackathons, my personal projects, and course projects. I cannot only use GitHub to track my work, but also collaborate with other people. I use command line for GitHub operations.",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export default [
     skill: "Japanese & English",
     logo: ["fa-solid fa-language"], //TODO: Change to i logo
     description:
-      "<font>I'm fluent in both Japanese and English.</font> I've been in Japan since I was born. My English level is high enough to help students mathematics and take college courses in English.",
+      "I'm fluent in both Japanese and English. I've been in Japan since I was born. My English level is high enough to help students mathematics and take college courses in English.",
   },
   {
     id: 8,
@@ -69,6 +69,6 @@ export default [
     skill: "Leadership & Teamwork",
     logo: ["fa-solid fa-people-group "], //TODO: Change to i logo
     description:
-      "I've worked on projects with other people through <font>Hachathons</font> and <font>club activities</font>. Moreover, I've been an officer of Tech club.",
+      "I've worked on projects with other people through Hachathons and club activities. Moreover, I've been an officer of Tech club.",
   },
 ];
