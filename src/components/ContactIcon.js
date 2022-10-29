@@ -7,7 +7,7 @@ export default function ContactIcon(props) {
     <button
       className="btn icon-circle"
       type="button"
-      onClick={() => (window.location.href = `mailto:chisafuutome@gmail.com`)}
+      onClick={() => (window.location.href = "mailto:chisafukutome@gmail.com")}
     >
       <ion-icon name={props.item.iconName}></ion-icon>
     </button>
