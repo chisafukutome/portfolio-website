@@ -28,6 +28,9 @@ export default function Title() {
               <button
                 className="download-resume btn"
                 type="button"
+                onClick={() => {
+                  window.open("../assets/Portfolio_Resume.pdf", "_blank");
+                }}
                 //TODO: search how to open pdf file when button is clicked.
               >
                 View My Resume (.pdf)
