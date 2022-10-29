@@ -22,25 +22,27 @@ export default function ProjectItem(props) {
   });
 
   return (
-    <div class="card-container col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
       <div class="project-card card">
         <img
           src={`/assets/projectImage/${props.item.imgSrc}`}
           class="card-img-top"
         />
-        <div class="card-body">
+        <div class="card-body overflow-auto">
           <h5 class="card-title">{props.item.projectName}</h5>
-          <p class="card-text">{props.item.description}</p>
+          <div class="card-text">
+            <p>{props.item.description}</p>
+          </div>
           <hr />
           <p>
             Time: {props.item.start} - {props.item.end}
           </p>
           <p>Lauguages: {`${props.item.language}`}</p>
-          {/* Project icons */}
-
-          <div class="project-icons">{projectIcons}</div>
-          {/* Project Icons End*/}
         </div>
+        {/* Project icons */}
+
+        <div class="project-icons card-footer bg-white">{projectIcons}</div>
+        {/* Project Icons End*/}
       </div>
     </div>
   );

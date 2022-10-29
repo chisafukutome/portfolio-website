@@ -12,7 +12,7 @@ export default [
     iconLink: "https://www.linkedin.com/in/chisafukutome/",
   },
   //Email
-  { id: 3, iconName: "mail", iconink: "mailto:chisafukutome@gmail.com" },
+  { id: 3, iconName: "mail", iconink: "chisafukutome@gmail.com" },
   //YouTube
   {
     id: 4,

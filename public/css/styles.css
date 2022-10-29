@@ -166,6 +166,28 @@ button.icon-scroll {
   border-radius: 50%;
 }
 
+/* Card */
+.project-card {
+  margin-top: 10%;
+}
+.card-text {
+  min-height: 40%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.project-card div.card-footer {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.project-card .card-body {
+  padding-bottom: 0;
+}
+
+/* End Card */
+
 button.btn.icon-scroll.carousel-control-prev {
   left: 50%;
   background-color: white;
@@ -173,21 +195,13 @@ button.btn.icon-scroll.carousel-control-prev {
   border: solid 3px var(--blue);
 }
 
-/* Project Carousel */
-.project-carousel {
-  margin-top: 5%;
-}
-
-.carousel-item div.card-container {
-  padding: 1.5%;
-  border: none;
-}
-
 /* Icon Styling */
 .project-icons .icon-circle {
   background-color: white;
   color: var(--blue);
   border: solid 3px var(--blue);
+  bottom: 0;
+  margin-top: 0;
 }
 
 .project-icons .icon-circle:hover,
