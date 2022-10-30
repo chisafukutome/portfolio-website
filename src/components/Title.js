@@ -29,11 +29,14 @@ export default function Title() {
                 className="download-resume btn"
                 type="button"
                 onClick={() => {
-                  window.open("../assets/Portfolio_Resume.pdf", "_blank");
+                  window.open(
+                    "https://docs.google.com/document/d/1GRIZhXh4a_pSCyt5KZW3dOiglolDW2rf/edit?usp=sharing&ouid=107603435417723394517&rtpof=true&sd=true",
+                    "_blank"
+                  );
                 }}
                 //TODO: search how to open pdf file when button is clicked.
               >
-                View My Resume (.pdf)
+                View My Resume (.docx)
               </button>
               <button
                 className="learn-more btn"
