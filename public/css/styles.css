@@ -255,6 +255,10 @@ button.btn.icon-scroll.carousel-control-next:hover {
   #title {
     text-align: center;
   }
+  .download-resume.btn {
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
 
   img.heading-img {
     width: 40%;
