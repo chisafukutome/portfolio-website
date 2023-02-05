@@ -1,13 +1,48 @@
 export default [
   {
     id: 1,
+    imgSrc: "StudySpace_Image.jpg",
+    projectName: "Study Space",
+    description:
+      "Swamp Hacks IX project. This is a web app which helps users log study activities. The application has the functionalities of logging study duration & amount, displaying charts, saving study locations, and pomodoro timer.	I contributed to backend using Python Flask and sending the backend data to reflect on chart using chart.js.",
+    start: "1/27/23",
+    end: "",
+    language: [
+      "Python (Flask, SQLAlchemy)",
+      "HTML",
+      "CSS (Bootstrap)",
+      "Chart.js",
+      "Google Maps API",
+    ],
+    icon: [
+      {
+        logo: "logo-github",
+        link: "https://github.com/chisafukutome/study-tracking-app",
+      },
+      {
+        logo: "fa-brands fa-dev",
+        link: "https://devpost.com/software/study-space-9ko02u",
+      },
+      {
+        logo: "logo-youtube",
+        link: "https://www.youtube.com/watch?v=DB8ueZH1XHk",
+      },
+    ],
+  },
+  {
+    id: 2,
     imgSrc: "CaffeineCulator_Icon.png",
     projectName: "CaffeineCulator",
     description:
-      "Swamp Hacks 2022 project. This web application calculates the amount of caffeine based on user input (either barcode or text).",
+      "Swamp Hacks VIII project. This web application calculates the amount of caffeine based on user input (either barcode or text). I contributed to backend development where the application retrieves caffeine nutrients information using API ",
     start: "1/28/22",
     end: "1/30/22",
-    language: ["Python (Flask)", "HTML", "CSS", "API (Nutritionix)"],
+    language: [
+      "Python (Flask, SQLAlchemy)",
+      "HTML",
+      "CSS (Bootstrap)",
+      "API (Nutritionix)",
+    ],
     icon: [
       {
         logo: "logo-github",
@@ -28,7 +63,7 @@ export default [
     ],
   },
   {
-    id: 2,
+    id: 3,
     imgSrc: "to_watch.jpg",
     projectName: "To-Watch",
     description:
