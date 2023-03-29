@@ -1,6 +1,30 @@
 export default [
   {
     id: 1,
+    imgSrc: "Promptify_Img.png",
+    projectName: "Promptify",
+    description:
+      "Hackabull 2023 project. A desktop app which takes users’ voice input to conduct Spotify operations, such as creating a playlist and playing a song. The application also answers any questions which users ask. Contributed to frontend using kivy and kivyMD.",
+    start: "3/25/23",
+    end: "3/26/23",
+    language: ["Python (kivy)", "GPT3", "Google Cloud", "SpotifyAPI"],
+    icon: [
+      {
+        logo: "logo-github",
+        link: "https://github.com/DevelopmentGaggle/Hackabull2023",
+      },
+      {
+        logo: "fa-brands fa-dev",
+        link: "https://devpost.com/software/promptify-j6a8g2",
+      },
+      {
+        logo: "logo-youtube",
+        link: "https://www.youtube.com/watch?v=jqgYnCtsTMk",
+      },
+    ],
+  },
+  {
+    id: 2,
     imgSrc: "StudySpace_Image.jpg",
     projectName: "Study Space",
     description:
@@ -30,7 +54,7 @@ export default [
     ],
   },
   {
-    id: 2,
+    id: 3,
     imgSrc: "CaffeineCulator_Icon.png",
     projectName: "CaffeineCulator",
     description:
@@ -63,7 +87,7 @@ export default [
     ],
   },
   {
-    id: 3,
+    id: 4,
     imgSrc: "to_watch.jpg",
     projectName: "To-Watch",
     description:
@@ -88,7 +112,7 @@ export default [
     ],
   },
   {
-    id: 3,
+    id: 5,
     imgSrc: "StudyBuddy_Image.JPG",
     projectName: "Study Buddy",
     description:
